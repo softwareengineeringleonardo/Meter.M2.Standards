@@ -37,7 +37,7 @@ Services communicate asynchronously through domain events, promoting decoupling 
 
 ---
 
-# 📂 Project Structure C1
+# Project Structure C1
 Meter.M2.Standards/
 │
 ├── src/
@@ -57,19 +57,20 @@ Meter.M2.Standards/
 - [Docker](https://www.docker.com/) (optional)
 - [Git](https://git-scm.com/)
 - [Kafka or RabbitMQ] for event bus (optional)
-### Run the API locally
 
-```bash
+  
+## Run the API locally
+###bash
 cd src/Meter.M2.API
 dotnet run
 
-📢 Contributing
+## Contributing
 Contributions are welcome! Please open issues or submit pull requests with improvements, examples, or bug fixes.
 
-📄 License
+## License
 This project is licensed under the MIT License.
 
-🙋 About the Author
+## About the Author
 Created by Leonardo — Software Engineer & Solution Architect passionate about clean architecture, distributed systems, and modern .NET development.
 
 
