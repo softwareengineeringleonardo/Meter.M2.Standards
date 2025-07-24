@@ -1,0 +1,6 @@
+@Meter.M2.CreateCustomerService_HostAddress = http://localhost:5105
+
+GET {{Meter.M2.CreateCustomerService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
