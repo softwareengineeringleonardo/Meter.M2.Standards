@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Leonardo Metre",
+  "classifications": [ "Setup", "Architecture", "PowerShell" ],
+  "identity": "Meter.M2.Architecture.Template",
+  "name": "Template de Arquitetura Meter.M2 (.NET + PowerShell)",
+  "shortName": "meter-m2",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "Meter.M2",
+  "preferNameDirectory": true
+}
