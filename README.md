@@ -38,17 +38,15 @@ Services communicate asynchronously through domain events, promoting decoupling 
 ---
 
 # Project Structure C1
-Meter.M2.Standards/
-│
-├── src/
-│ ├── Meter.M2.API → RESTful API layer
-│ ├── Meter.M2.Grpc → gRPC service definition
-│ ├── Meter.M2.Application → CQRS handlers and service logic
-│ ├── Meter.M2.Domain → Core domain models and logic (DDD)
-│ ├── Meter.M2.Infrastructure → Data access, messaging, external integrations
-│ └── Meter.M2.IoC → Dependency injection configuration
-│
-└── README.md
+- Meter.M2.Standards/
+- ├── src/
+- │ ├── Meter.M2.API → RESTful API layer
+- │ ├── Meter.M2.Grpc → gRPC service definition
+- │ ├── Meter.M2.Application → CQRS handlers and service logic
+- │ ├── Meter.M2.Domain → Core domain models and logic (DDD)
+- │ ├── Meter.M2.Infrastructure → Data access, messaging, external integrations
+- │ └── Meter.M2.IoC → Dependency injection configuration
+- └── README.md
 ---
 
 ## Getting Started
@@ -60,7 +58,7 @@ Meter.M2.Standards/
 
   
 ## Run the API locally
-###bash
+## bash
 cd src/Meter.M2.API
 dotnet run
 
