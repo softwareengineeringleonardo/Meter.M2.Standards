@@ -37,7 +37,7 @@ Services communicate asynchronously through domain events, promoting decoupling 
 
 ---
 
-## 📂 Project Structure C1
+# 📂 Project Structure C1
 Meter.M2.Standards/
 │
 ├── src/
